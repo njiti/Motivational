@@ -15,7 +15,6 @@ body{
   font: 'Poppins', sans-serif;
   padding-left: 1rem;
 }
-/*
 
 .container {
   max-width: 100vw;
@@ -58,7 +57,7 @@ button {
   display: flex;
   justify-content: space-around;
 }
-/*
+
 .tray {
   display: flex;
   align-items: center;
@@ -73,7 +72,6 @@ button {
 .tray #downvote #upvote {
   margin-right: 10px;
 }
-/*
 
 .most {
   color: red;
@@ -82,4 +80,3 @@ button {
 .none {
   color: black;
 }
-*/
