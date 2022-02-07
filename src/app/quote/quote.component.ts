@@ -6,7 +6,7 @@ import { Quote } from '../quote'
 @Component({
   selector: 'app-quote',
   templateUrl: './quote.component.html',
-  styleUrls: ['./quote.component.scss']
+  styleUrls: ['./quote.component.css']
 })
 export class QuoteComponent implements OnInit {
 
@@ -35,7 +35,7 @@ export class QuoteComponent implements OnInit {
 
 deleteQuote(toDelete:boolean, index:number){
    if(toDelete){
-     let trashQuote = confirm(`Are you sure you want to delete '${this.quotes[index].quote}' quote?`) 
+     let trashQuote = confirm(`Are you sure you want to delete '${this.quotes[index].quote}' quote?`)
 
      if(trashQuote){
       this.quotes.splice(index, 1)

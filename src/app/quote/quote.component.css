@@ -63,20 +63,19 @@ button {
   align-items: center;
   justify-content: space-between;
 }
-.tray #downvote {
+.tray .downvote {
   margin-left: 20px;
-  margin-right: 10px;
-
 }
 
-.tray #downvote #upvote {
+.tray .upvote {
   margin-right: 10px;
 }
 
 .most {
-  color: red;
+  color: rgb(250, 7, 7);
 }
 
 .none {
   color: black;
 }
+
