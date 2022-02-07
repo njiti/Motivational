@@ -58,16 +58,16 @@ button {
   justify-content: space-around;
 }
 
-.tray {
+.try {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.tray .downvote {
+.tray .lag {
   margin-left: 20px;
 }
 
-.tray .upvote {
+.tray .logo {
   margin-right: 10px;
 }
 
