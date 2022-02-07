@@ -3,25 +3,19 @@
   margin: 0;
   padding-top: 1rem;
   box-sizing: border-box;
-  font: 'Poppins', sans-serif;
   scroll-behavior: smooth;
   padding-left: 1rem;
 }
-/*
-
-#left {
+body{
   height: 100vh;
   padding-top: 1rem;
   background-image: url(https://images.unsplash.com/photo-1533038590840-1cde6e668a91?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80);
-  background-position: bottom;
+  -webkit-background-size: cover;
   background-size: cover;
+  font: 'Poppins', sans-serif;
   padding-left: 1rem;
-
 }
-
-#right {
-  padding-top: 1rem;
-}
+/*
 
 .container {
   max-width: 100vw;
