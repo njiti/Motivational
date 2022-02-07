@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 *{
-  height: 100vh;
+  margin: 0;
   padding-top: 1rem;
-  background-image: url(https://images.unsplash.com/photo-1533038590840-1cde6e668a91?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80);
-  background-position: bottom;
-  background-size: cover;
+  box-sizing: border-box;
+  font: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
   padding-left: 1rem;
 }
+/*
 
 #left {
   height: 100vh;
@@ -38,7 +39,7 @@ button {
   padding: 4px 6px;
   font-size: 13px;
 }
-/**/
+
 .quote-element {
   border: 1px solid black;
   transition: all ease .1s;
@@ -63,7 +64,7 @@ button {
   display: flex;
   justify-content: space-around;
 }
-/**/
+/*
 .tray {
   display: flex;
   align-items: center;
@@ -78,7 +79,7 @@ button {
 .tray #downvote #upvote {
   margin-right: 10px;
 }
-/*+*/
+/*
 
 .most {
   color: red;
@@ -87,3 +88,4 @@ button {
 .none {
   color: black;
 }
+*/
